@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presentes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        *{
+            margin: 0;
+            outline: none;
+            box-sizing: border-box;
+            border: none;
+            color: var(--back);
+            font-family: 'Poppins', sans-serif;
+        }
+        :root{
+            --background : #faf3ff;
+            --primary-color : #b19ad4;
+            --back : #1d1d1d;
+        }
+        body{
+            background-color: var(--background);
+            padding: 15vh 6vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .tittle{
+            font-size: 1.2rem;
+            color: var(--primary-color);
+
+        }
+        .subtittle{
+            font-size: .8rem;
+            color: #a3a3a3;
+            font-weight: 400;
+        }
+        .links-grid{
+            display: grid;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .content-link{
+            width: 100%;
+            border-radius: 1rem;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .content-img{
+            height: 35vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .img-link{
+            width: 100%;
+        }
+        .header-link{
+            background-color: #f7ebff;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: .3rem;
+        }
+        .tittle-link{
+            font-size: 1rem;
+        }
+        .valor{
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: .8rem;
+            color: #a3a3a3;
+        }
+        .btx-link{
+            padding: .5rem .8rem;
+            background-color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 400;
+            border-radius: .5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+            width: 100%;
+            color: var(--background);
+            font-size: 1rem;
+
+        }
+        .btx-link:hover{
+            background-color: #9875cc;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="" alt="" class="profile">
+        <div class="content-header">
+            <h1 class="tittle">Lista de Presentes</h1>
+            <h2 class="subtittle">Itens Representativos</h2>
+        </div>
+    </header>
+    <main class="links-grid">
+        <section class="content-link">
+            <div class="content-img">
+                <img src="https://img.olx.com.br/images/58/585334272087026.jpg" alt="" class="img-link">
+            </div>    
+            <div class="header-link">
+                <h1 class="tittle-link">Cama box Casal Ortobom Elegant Superpocket Preto</h1>
+                <h2 class="valor">R$1.957,69</h2>
+                <a href="http://mpago.la/15efZbv" class="btx-link"><img src="imagens/presente.svg" alt="">  Presentar</a>
+            </div>
+        </section>
+        <section class="content-link">
+            <div class="content-img">
+                <img src="https://img.olx.com.br/images/58/585334272087026.jpg" alt="" class="img-link">
+            </div>    
+            <div class="header-link">
+                <h1 class="tittle-link">Cama box Casal Ortobom Elegant Superpocket Preto</h1>
+                <h2 class="valor">R$ 985,16</h2>
+                <a href="http://" class="btx-link"><img src="imagens/presente.svg" alt="">  Presentar</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
